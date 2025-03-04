@@ -4,7 +4,10 @@ import Navigation from './StackNavigator';
 
 export default function App() {
   return (
-    <Navigation/>
+    // <Navigation/>
+    <View>
+      <Text>Hi</Text>
+    </View>
   );
 }
 
@@ -21,3 +24,10 @@ const styles = StyleSheet.create({
 //    eas build -p android --profile preview
 // to run the app from the build
 //    eas build:run -p android
+
+/*
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+npm install @react-navigation/bottom-tabs
+*/
