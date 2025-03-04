@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Navigation from './StackNavigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Navigation/>
   );
 }
 
@@ -18,3 +16,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+// TO build the app from eas.json
+// preview is the build command, like npm run coolVersion1
+//    eas build -p android --profile preview
+// to run the app from the build
+//    eas build:run -p android
