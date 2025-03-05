@@ -70,7 +70,7 @@ function Navigation(){
         // Stack.Navigator is the stack where the screens are placed on top of each other
         <NavigationContainer>
             <Stack.Navigator>
-                {/* <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}} />  */}
+                <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}} /> 
                 <Stack.Screen name="Main" component={BottomTabs} options={{headerShown: false}} />
             </Stack.Navigator>
         </NavigationContainer>
