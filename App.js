@@ -4,12 +4,9 @@ import Navigation from './StackNavigator';
 
 export default function App() {
   return (
-    // <Navigation/>
-    <View>
-      <Text>Hi</Text>
-    </View>
+    <Navigation/>
   );
-}
+} 
 
 const styles = StyleSheet.create({
   container: {
